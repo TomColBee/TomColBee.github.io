@@ -1,0 +1,132 @@
+/* #CA908B
+#F5EFEE
+brown */
+
+/* ------------------------------------------------------- */
+/* Header and Navigation bar styles */
+/* ------------------------------------------------------- */
+#logo-main {
+    display: block;
+    margin: 20px auto;
+    align: center;
+    border-bottom: solid;
+    position: relative;
+    height: 35%;
+    width: 35%;
+    min-width: 300px;
+}
+
+#navbar-primary {
+  background: #FCFCFC;
+  border: transparent;
+  padding-top: 0.3%;
+}
+
+.navbar-default .navbar-nav {
+    display: inline-block;
+    float: none;
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #32B4EC !important;
+    display: block;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+/* ------------------------------------------------------- */
+/* Footer */
+/* ------------------------------------------------------- */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-top: solid;
+  border-top-color: #32B4EC;
+  padding-top: 1%;
+}
+
+
+
+/* ------------------------------------------------------- */
+/* Home page */
+/* ------------------------------------------------------- */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+#home_intro {
+  background-color: #91DCFC;
+  margin: 1%;
+}
+
+#latest_project {
+  background-color: #91DCFC;
+  margin: 1%;
+}
+
+#current_project {
+  border-color: #91DCFC;
+  border-style: solid;
+  border-width: medium;
+}
+
+.progress_label {
+  float: left;
+  margin-right: 1em;
+  width: 25%;
+  text-align: right;
+}
+
+.btn-info[role="button"] {
+  background: #32B4EC;
+  border: solid;
+  border-color: white;
+}
+
+
+
+/* ------------------------------------------------------- */
+/* About me */
+/* ------------------------------------------------------- */
+#about_text {
+  background-color: #91DCFC;
+  text-align: center;
+  align: center;
+}
+
+#skill_set {
+  border: solid;
+  border-color: #32B4EC;
+  text-align: center;
+  align: center;
+  padding-bottom: 0.5%;
+}
+
+#skill_set .progress .progress-bar {
+  width: 20%;
+  text-align: center;
+  background-color: #F2F3F5;
+  color: grey;
+}
+
+.btn-group {
+  border: solid;
+  border-width: thin;
+  background-color: #F2F3F5;
+}

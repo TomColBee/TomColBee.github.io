@@ -1,0 +1,38 @@
+.selection button {
+  width: 75px;
+  height: 75px;
+  background-color: #e9ebec ;
+  border-radius: 50%;
+  border: 4px solid green; /*this gets rid of bootstrap shadow*/
+  margin: 1px;
+}
+
+
+.board button {
+  width: 75px;
+  height: 75px;
+  background-color: #fafaf9;
+  border-radius: 50%;
+  border: 4px solid black; /*this gets rid of bootstrap shadow*/
+  margin: 1px;
+}
+
+#player_message {
+  color: red;
+}
+
+#startreset {
+  width: 250px;
+  height: 50px;
+  background-color: green;
+  color: white;
+}
+
+.boardchoice {
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  border-radius: 50%;
+  border: 4px solid black; /*this gets rid of bootstrap shadow*/
+  margin: 1px;
+}
