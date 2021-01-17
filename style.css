@@ -118,6 +118,10 @@ brown */
   padding-bottom: 0.5%;
 }
 
+#skill_set_buttons {
+  background-color: #F2F3F5;
+}
+
 #skill_set .progress .progress-bar {
   width: 20%;
   text-align: center;
@@ -129,4 +133,20 @@ brown */
   border: solid;
   border-width: thin;
   background-color: #F2F3F5;
+}
+
+
+
+/* ------------------------------------------------------- */
+/* Portfolio */
+/* ------------------------------------------------------- */
+#portfolio_row {
+  text-align: center;
+}
+
+#portfolio-connectfour {
+  border-color: #91DCFC;
+  border-style: solid;
+  border-width: medium;
+  height: 450px;
 }
