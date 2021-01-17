@@ -11,7 +11,7 @@ $(document).ready(function () {
 // Navigation bar and header
 var navheader =
 '<header role="banner">'+
-'  <img id="logo-main" src="assets/logo.png" width="25%" alt="Thomas Beeson">'+
+'  <img id="logo-main" src="assets/logo.PNG" width="25%" alt="Thomas Beeson">'+
 '  <nav id="navbar-primary" class="navbar navbar-default" role="navigation">'+
 '    <div class="container-fluid">'+
 '      <div class="navbar-header">'+
