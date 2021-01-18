@@ -150,3 +150,59 @@ brown */
   border-width: medium;
   height: 450px;
 }
+
+
+
+/* ------------------------------------------------------- */
+/* Contact */
+/* ------------------------------------------------------- */
+#contact_content {
+  border-color: #91DCFC;
+  border-style: solid;
+  border-width: medium;
+}
+
+#socialmedia a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 1.0;
+    display: block;
+}
+
+#socialmedia a:hover {
+  opacity: 0.7;
+}
+
+#socialmedia {
+  align: center;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  margin: 0.5%;
+  line-height: 150px;
+}
+
+#socialmedia .linkedin {
+  background: #007bb5;
+  color: white;
+  height: 150px;
+  width: 150px;
+  font-size: 50px;
+  text-align: center;
+}
+
+#socialmedia .google {
+  background: #dd4b39;
+  color: white;
+  height: 150px;
+  width: 150px;
+  font-size: 50px;
+}
+
+#socialmedia .medium {
+  background: black;
+  color: white;
+  height: 150px;
+  width: 150px;
+  font-size: 50px;
+}
